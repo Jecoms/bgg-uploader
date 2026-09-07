@@ -1,0 +1,54 @@
+<div class='select-free' id='editstatus7'>
+	<div class='collection_handle' id='handle7'>
+		<span style='float:left;'>
+			Edit Status Azul
+		</span>
+		<span style='float:right;'>
+			<a href="javascript://" onclick="CE_CancelEditData( '7', 'status' );"><img class='icon' title='' alt='' style=''  src='https://cf.geekdo-static.com/images/icons/silkicons/cross.png' /></a>
+		</span>		
+		<div class='clear'></div>				
+	</div>
+	
+	<div style='padding:1em;'>
+		<form autocomplete=off  id='form_status7' style='text-align:left;' onsubmit="CE_SaveData( '7', '47994218', 'status' ); return false;">
+			<input type='hidden' name='fieldname' 	value='status'>
+			<input type='hidden' name='collid' 	  	value='47994218'>
+			<input type='hidden' name='objecttype' value='thing'>
+			<input type='hidden' name='objectid' 	value='230802'>
+			
+			<div style='white-space:nowrap; line-height:20px;'>
+				<input id='own7' name='own' 			type='checkbox' value='1' >Own<br>
+				<input name='prevowned' 	type='checkbox' value='1' >Previously&nbsp;Owned<br>
+				<input name='fortrade' 		type='checkbox' value='1' >For&nbsp;Trade<br>
+				<input name='want' 			type='checkbox' value='1' >Want in Trade<br>
+				<input name='wanttoplay' 	type='checkbox' value='1' CHECKED>Want&nbsp;To&nbsp;Play<br>
+				<input name='wanttobuy' 	type='checkbox' value='1' CHECKED>Want&nbsp;To&nbsp;Buy<br>
+				<input name='preordered' 	type='checkbox' value='1' >Preordered<br>
+				<input name='wishlist' 		type='checkbox' value='1' >Wishlist
+				
+				<select name="wishlistpriority">
+					<option value='1' >1 - Must have</option>
+					<option value='2' >2 - Love to have</option>
+					<option value='3' SELECTED>3 - Like to have</option>
+					<option value='4' >4 - Thinking about it</option>
+					<option value='5' >5 - Don't buy this</option>
+				</select>
+				
+			<div style='margin-top:1em; white-space:nowrap; font-size:10px;'>
+				<input class='geekinput' type='submit' name='B1' value='Save'>
+				&nbsp;&nbsp;&nbsp;
+				<input class='geekinput' type='button' name='B1' value='Cancel' onclick="CE_CancelEditData( '7', 'status' );">
+			<div>
+		</form>
+	</div>
+</div>
+
+<script language='Javascript'>
+		
+	ddcount++;	
+dd[ddcount] = new YAHOO.example.DDOnTop( 'editstatus7', '', { cont:'maincontent' } );
+dd[ddcount].setHandleElId( "handle7" );
+dd[ddcount].myfocus = 		() => { $('own7').focus(); }
+	;
+	$('own7').focus();
+</script>

@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["**", "!.output", "!.wxt", "!public", "!**/__fixtures__"]
+    "includes": ["**", "!.output", "!.wxt", "!public", "!**/__fixtures__", "!assets"]
   },
   "formatter": {
     "indentStyle": "space",

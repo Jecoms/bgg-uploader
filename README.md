@@ -1,4 +1,4 @@
-# BGG Uploader
+# BGG Collection Uploader
 
 A browser extension (Chrome and Firefox) that bulk-updates your
 [BoardGameGeek](https://boardgamegeek.com) collection from a list of game names.

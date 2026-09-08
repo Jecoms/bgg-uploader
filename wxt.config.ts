@@ -8,7 +8,7 @@ export default defineConfig({
   // assignments (addons.mozilla.org flags them during validation).
   svelte: { vite: { compilerOptions: { fragments: 'tree' } } },
   manifest: ({ browser }) => ({
-    name: 'BGG Uploader',
+    name: 'BGG Collection Uploader',
     description: 'Bulk-update your BoardGameGeek collection from a list of game names.',
     homepage_url: 'https://github.com/Jecoms/bgg-uploader',
     host_permissions: ['*://boardgamegeek.com/*'],

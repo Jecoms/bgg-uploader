@@ -72,9 +72,9 @@ Stack: [WXT](https://wxt.dev) + Svelte 5 + TypeScript, Vitest, Playwright, Biome
 
 ## Privacy
 
-The extension runs only on your own BoardGameGeek collection page and talks only to
-boardgamegeek.com, using the session you are already logged in with. It stores nothing,
-collects nothing, and sends nothing anywhere else. Your list of games never leaves the tab.
+Runs only on your own BoardGameGeek collection page, talks only to boardgamegeek.com with the
+session you are already logged in with, and stores or sends nothing anywhere else.
+Full statement: [PRIVACY.md](PRIVACY.md).
 
 ## Status
 

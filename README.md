@@ -1,8 +1,12 @@
 # BGG Collection Uploader
 
-A browser extension (Chrome and Firefox) that bulk-updates your
+A browser extension for Firefox and Chrome that bulk-updates your
 [BoardGameGeek](https://boardgamegeek.com) collection from a list of game names.
 BGG has no import feature of its own.
+
+**Install:**
+[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/bgg-collection-uploader/) ·
+[Chrome Web Store](https://chromewebstore.google.com/detail/omkcggagkcljmaomlcejeejgbadjopad)
 
 It runs inside your own logged-in BGG tab, so it never handles your password and
 never needs an API key.
@@ -78,7 +82,9 @@ Full statement: [PRIVACY.md](PRIVACY.md).
 
 ## Status
 
-Works against live BGG. Not yet published to a store; load it unpacked (see above).
+Published on [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/bgg-collection-uploader/)
+and the [Chrome Web Store](https://chromewebstore.google.com/detail/omkcggagkcljmaomlcejeejgbadjopad).
+Both builds come from the same source and are exercised in CI.
 
 ## License
 

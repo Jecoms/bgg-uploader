@@ -55,10 +55,8 @@ bun run icons          # regenerate public/icon/*.png from assets/icon.svg
 ```
 
 To load into your own browser:
-Chrome → `chrome://extensions` → Developer mode → Load
-unpacked → `.output/chrome-mv3`.
-Firefox → `about:debugging` → This Firefox → Load Temporary
-Add-on → `.output/firefox-mv2/manifest.json`.
+- Chrome → `chrome://extensions` → Developer mode → Load unpacked → `.output/chrome-mv3`.
+- Firefox → `about:debugging` → This Firefox → Load Temporary Add-on → `.output/firefox-mv2/manifest.json`.
 
 ### Layout
 
